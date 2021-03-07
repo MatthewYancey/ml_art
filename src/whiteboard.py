@@ -5,35 +5,48 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 import urllib.request
 import time
+import os
 
 driver = webdriver.Chrome()
 driver.get("https://www.beeple-crap.com/everydays")
 wait = WebDriverWait(driver, 10)
 
 # waits for the page to load
-time.sleep(3)
-wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'bDfMI')))
 rounds = driver.find_elements_by_class_name('bDfMI')
-# rounds = driver.find_elements_by_partial_link_text('ROUND')
-# rounds = driver.find_element_by_id("comp-k5s8azvg__c14d874f-bcc3-41bf-bc15-ac9c43df9e99")
-# rounds = rounds[20:]
 print(len(rounds))
-# rounds = driver.find_elements_by_class_name("bDfMI")
+
+r = rounds[0]
+r.click()
+
+SCROLL_PAUSE_TIME = 2
+
+# Get scroll height
+last_height = driver.execute_script("return document.body.scrollHeight")
+time.sleep(SCROLL_PAUSE_TIME)
+while True:
+    # Scroll down to bottom
+    print('scrolling')
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    # Wait to load page
+    time.sleep(SCROLL_PAUSE_TIME)
+
+    # Calculate new scroll height and compare with last scroll height
+    new_height = driver.execute_script("return document.body.scrollHeight")
+    if new_height == last_height:
+        break
+    last_height = new_height
+# scroll back to the top
 driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + Keys.HOME)
 
-r = rounds[5]
-r.click()
-driver.get("https://www.beeple-crap.com/everydays")
-for r in rounds[5:]:
-    wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'bDfMI')))
-    r.click()
-    print('new round')
-    # wait for the images of that round to load
-    wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'gallery-item-container')))
-    time.sleep(10)
 
 # get all the images we can see
-images = driver.find_elements_by_class_name("gallery-item-container")
+container = driver.find_element_by_id("pro-gallery-margin-container")
+images = container.find_elements_by_tag_name("source")
+print(len(images))
+image = images[0]
+if image.get_attribute("type") == 'image/jpg':
+    print('true')
 get_images(images)
 # try to scrol down and see if that makes a difference
 # look at any new images
