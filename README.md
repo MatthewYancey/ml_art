@@ -1,20 +1,17 @@
-# 8e3p1e
+# ML Art
+This is a repo for creating Machine Learning Generated Art.
+
+## Citations
+This pulls/barrows from the following other repositories.
+* https://github.com/dvschultz/stylegan2-ada-pytorch
+
+## Datasources
+* beeple_210.zip: A collection of Beeple's Everydays (https://www.beeple-crap.com/everydays)
 
 ## Backlog
 * Need to make a script for checking how close your image is to the originals
-* Other datasets to make
+* Other datasets to try
     * Lisa Frank
     * Doctor Sues
-    * 
 
 ## Notes
-* TensorFlow Example
-    * GitHub: https://github.com/dvschultz/stylegan2/blob/master/StyleGAN2_Google_Colab_Example.ipynb
-    * YouTube: https://www.youtube.com/watch?v=-6p0zwHc5-8&list=WL&index=10&t=12s&ab_channel=ArtificialImages
-
-* Pytorch
-    * GitHub: https://github.com/rosinality/stylegan2-pytorch
-
-
-
-
