@@ -1,9 +1,11 @@
 # 8e3p1e
 
 ## Backlog
-* Upload images
-* Run styleGANs for TensorFlow
 * Need to make a script for checking how close your image is to the originals
+* Other datasets to make
+    * Lisa Frank
+    * Doctor Sues
+    * 
 
 ## Notes
 * TensorFlow Example
@@ -12,5 +14,7 @@
 
 * Pytorch
     * GitHub: https://github.com/rosinality/stylegan2-pytorch
+
+
 
 
