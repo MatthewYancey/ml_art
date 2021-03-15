@@ -11,6 +11,7 @@ pandas = "*"
 requests = "*"
 selenium = "*"
 pillow = "*"
+opencv-python = "*"
 
 [requires]
 python_version = "3.8"
