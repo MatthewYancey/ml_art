@@ -9,6 +9,7 @@ This pulls/barrows from the following other repositories.
 * beeple_210.zip: A collection of Beeple's Everydays (https://www.beeple-crap.com/everydays)
 
 ## Backlog
+* Updated images
 * Dataset
     * get images that are 1024 or larger
     * remove duplicates/similar
