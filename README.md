@@ -20,10 +20,8 @@ This pulls/barrows from the following other repositories.
 * Other datasets to try
     * Lisa Frank
     * Doctor Sues
+    * Arrival circles
+    * Radiohead album cover
 
 ## Notes
 * 200 Epochs is a good baseline
-* Searches
-    * grey abstract watercolor
-    * white abstract watercolor
-    * blue abstract watercolor
