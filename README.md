@@ -9,19 +9,22 @@ This pulls/barrows from the following other repositories.
 * beeple_210.zip: A collection of Beeple's Everydays (https://www.beeple-crap.com/everydays)
 
 ## Backlog
-* Updated images
-* Dataset
-    * get images that are 1024 or larger
-    * remove duplicates/similar
-    * crop to square
-    * remove boarder
-    * x/y flip and rotate
-* Need to make a script for checking how close your image is to the originals
+* Make a script for checking how close your image is to the originals
+
 * Other datasets to try
     * Lisa Frank
     * Doctor Sues
-    * Arrival circles
-    * Radiohead album cover
+    * Arrival circles (don't think this would be that interesting)
+    * Radiohead album cover (not enough images)
+    * CT Scans (not enough and not heigh enough resolution)
 
 ## Notes
 * 200 Epochs is a good baseline
+* Printing
+    * Displate does not do custom prints
+    * Shutterfly
+        * 16x16 Canvis $50 with frame $80
+        * 24x36 Canvis $90 with frame $145
+        * 36x36 Canvis $110 with frame $180
+    * Easycanvisprints - really cheap
+    
