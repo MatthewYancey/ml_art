@@ -12,11 +12,16 @@ This pulls/barrows from the following other repositories.
 * Make a script for checking how close your image is to the originals
 
 * Other datasets to try
+    * Adobe stock images of abstract
     * Lisa Frank
     * Doctor Sues
-    * Arrival circles (don't think this would be that interesting)
+    * Bob Ross (https://github.com/jwilber/Bob_Ross_Paintings)
+    * Arrival circles (https://github.com/WolframResearch/Arrival-Movie-Live-Coding)
     * Radiohead album cover (not enough images)
     * CT Scans (not enough and not heigh enough resolution)
+
+## Article Notes
+* 
 
 ## Notes
 * 200 Epochs is a good baseline
