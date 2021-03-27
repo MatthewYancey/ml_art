@@ -41,3 +41,4 @@ This pulls/barrows from the following other repositories.
     * Radiohead album cover (not enough images)
     * CT Scans (not enough and not heigh enough resolution)
 * Super resolution repo (https://github.com/alexjc/neural-enhance)
+* Just use wifuAI (http://waifu2x.udp.jp/api)
