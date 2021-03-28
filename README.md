@@ -40,5 +40,6 @@ This pulls/barrows from the following other repositories.
     * Arrival circles (https://github.com/WolframResearch/Arrival-Movie-Live-Coding)
     * Radiohead album cover (not enough images)
     * CT Scans (not enough and not heigh enough resolution)
+    * Jack Kirby
 * Super resolution repo (https://github.com/alexjc/neural-enhance)
 * Just use wifuAI (http://waifu2x.udp.jp/api)
