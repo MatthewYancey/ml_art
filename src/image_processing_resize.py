@@ -10,9 +10,8 @@ TARGET_SIZE = 1024
 images = glob.glob(INPUT_FOLDER)
 print(f'Number of images: {len(images)}')
 
-# function for ratating and saving each version of the images
+# function for resizing and saving each version of the images
 image_count = 0
-
 
 for image in images:
     print(image)

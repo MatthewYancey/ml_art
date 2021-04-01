@@ -22,14 +22,14 @@ def rotate_and_save(im):
         cv.imwrite(f'{OUTPUT_FOLDER}{image_count}.png', im)
         image_count += 1
         # if i < 2:
-            # im = cv.flip(im, 0)  # flip horizontally
-            # cv.imwrite(f'{OUTPUT_FOLDER}{image_count}.png', im)
-            # image_count += 1
-            # im = cv.flip(im, 0)  # flip back
-            # im = cv.flip(im, 1)
-            # cv.imwrite(f'{OUTPUT_FOLDER}{image_count}.png', im)
-            # image_count += 1
-            # im = cv.flip(im, 1)  # flip back
+        # im = cv.flip(im, 0)  # flip horizontally
+        # cv.imwrite(f'{OUTPUT_FOLDER}{image_count}.png', im)
+        # image_count += 1
+        # im = cv.flip(im, 0)  # flip back
+        # im = cv.flip(im, 1)
+        # cv.imwrite(f'{OUTPUT_FOLDER}{image_count}.png', im)
+        # image_count += 1
+        # im = cv.flip(im, 1)  # flip back
         im = cv.rotate(im, cv.cv2.ROTATE_90_CLOCKWISE)  # rotate
 
 

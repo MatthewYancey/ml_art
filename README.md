@@ -5,6 +5,11 @@ This is a repo for creating Machine Learning Generated Art.
 This pulls/barrows from the following other repositories.
 * https://github.com/dvschultz/stylegan2-ada-pytorch
 
+## Scripts
+* **scrape_google.py**: Scraps images from a google image search
+* **scrape_beeple.py**: Scraps images from a beeples daily images
+* **image_processing_cut_samples.py**: Takes sample grid output and crops and saves the individual images.
+* **image_processing_resize.py**: Resizes a directory of images
 
 ## Datasources
 * beeple_210.zip: A collection of Beeple's Everydays (https://www.beeple-crap.com/everydays)
@@ -43,3 +48,5 @@ This pulls/barrows from the following other repositories.
     * Jack Kirby
 * Super resolution repo (https://github.com/alexjc/neural-enhance)
 * Just use wifuAI (http://waifu2x.udp.jp/api)
+
+* Next project is the 16:9 Gans
