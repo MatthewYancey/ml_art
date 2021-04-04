@@ -6,10 +6,15 @@ This pulls/barrows from the following other repositories.
 * https://github.com/dvschultz/stylegan2-ada-pytorch
 
 ## Scripts
+* **SG2_ADA_PyTorch.iphynb**: The PyTorch implamentation of StyleGans. This is the notebook that does the training
 * **scrape_google.py**: Scraps images from a google image search
 * **scrape_beeple.py**: Scraps images from a beeples daily images
 * **image_processing_cut_samples.py**: Takes sample grid output and crops and saves the individual images.
 * **image_processing_resize.py**: Resizes a directory of images
+* **image_processing_rotate.py**: Rotates abstract images in every way
+* **image_processing_window.py**: Takes high resolution images and splits them into multiple images of a specifi size
+* **image_tinder.py**: Quickly able to swipe left or right on images to keep
+* **image_alpha_check.py**: Checks images for an alpha level
 
 ## Datasources
 * beeple_210.zip: A collection of Beeple's Everydays (https://www.beeple-crap.com/everydays)
@@ -18,13 +23,14 @@ This pulls/barrows from the following other repositories.
 * Make a script for checking how close your image is to the originals
 
 ## Article Notes
-* Review of last article
-* ML art class
-* Using styleGAN2 model
-* Getting a clean dataset
-* Reviewing results
+* Mention of last article
+* This is more of a review of other models
+    * Helpful ML art class
+    * Using styleGAN2 model
+        * Talk about the architecture
 * Super resolution
-* Target resolution
+    * Target resolution
+* Reviewing results
 * Printing
 
 ## Notes
